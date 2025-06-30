@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahnoor Hussain - Personal Portfolio</title>
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h1>mahnoor<span>hussain._</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>HEY! I'm Mahnoor Hussain</h2>
+            <p class="tagline">Creative Designer & Frontend Developer</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Get In Touch</a>
+                <a href="#" class="btn resume-btn" onclick="openResumeModal()">View My Resume</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="modern-design">
+                <div class="geometric-shape shape-1"></div>
+                <div class="geometric-shape shape-2"></div>
+                <div class="geometric-shape shape-3"></div>
+                <div class="geometric-shape shape-4"></div>
+                <div class="geometric-shape shape-5"></div>
+                <div class="geometric-shape shape-6"></div>
+                
+                <!-- AI/ML Elements -->
+                <div class="ai-element ai-robot">
+                    <div class="robot-body">
+                        <div class="robot-head"></div>
+                        <div class="robot-eye left"></div>
+                        <div class="robot-eye right"></div>
+                        <div class="robot-antenna"></div>
+                    </div>
+                </div>
+                
+                <div class="ai-element ai-brain">
+                    <div class="neural-network">
+                        <div class="node node-1"></div>
+                        <div class="node node-2"></div>
+                        <div class="node node-3"></div>
+                        <div class="node node-4"></div>
+                        <div class="node node-5"></div>
+                        <div class="connection conn-1"></div>
+                        <div class="connection conn-2"></div>
+                        <div class="connection conn-3"></div>
+                    </div>
+                </div>
+                
+                <div class="ai-element ai-chip">
+                    <div class="circuit-board">
+                        <div class="circuit-line line-1"></div>
+                        <div class="circuit-line line-2"></div>
+                        <div class="circuit-line line-3"></div>
+                        <div class="circuit-dot dot-1"></div>
+                        <div class="circuit-dot dot-2"></div>
+                        <div class="circuit-dot dot-3"></div>
+                    </div>
+                </div>
+                
+                <div class="floating-card card-1">
+                    <div class="card-icon">🤖</div>
+                    <span>AI/ML</span>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-icon">🧠</div>
+                    <span>LLMs</span>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-icon">💻</div>
+                    <span>Web Dev</span>
+                </div>
+                <div class="floating-card card-4">
+                    <div class="card-icon">🎨</div>
+                    <span>Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate creative designer with a love for creating beautiful and functional websites. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
+                    <p>When I'm not designing, you can find me exploring new technologies, reading about design trends, or working on personal projects that challenge my skills.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Computer Science Student</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Karachi, Pakistan</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Creative Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">My Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Content Coordinator</h3>
+                        <h4>Procom 24</h4>
+                        <p>Led content creation and coordination for Procom 24, managing digital content and ensuring quality deliverables.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Social Media & Outreach Cohead</h3>
+                        <h4>AWS Cloud Club</h4>
+                        <p>Managed social media presence and outreach initiatives for AWS Cloud Club, promoting cloud computing awareness.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Media & Promotions Cohead</h3>
+                        <h4>ACM SE</h4>
+                        <p>Oversaw media strategies and promotional activities for ACM SE, enhancing community engagement and visibility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Programming and data analysis</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                    <p>AI/ML model development</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Hugging Face</h3>
+                    <p>NLP and AI models</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>C/C++</h3>
+                    <p>System programming</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive design</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>Frontend</h3>
+                    <p>Modern web development</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Overleaf</h3>
+                    <p>LaTeX document creation</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-magic"></i>
+                    <h3>Cursor AI</h3>
+                    <p>AI-powered coding</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Gemini API</h3>
+                    <p>AI integration</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Canva</h3>
+                    <p>Graphic design</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Google Collab</h3>
+                    <p>Cloud-based development</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-window-maximize"></i>
+                    <h3>Gradio</h3>
+                    <p>AI app interfaces</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <video controls width="100%" height="200">
+                            <source src="ESTORA.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="project-content">
+                        <h3>ESTORA-Where Creativity Meets Magic</h3>
+                        <p>A dynamic web application showcasing modern design and interactive features with responsive layout.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Tailwind CSS</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <video controls width="100%" height="200">
+                            <source src="FLASHLEARN.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="project-content">
+                        <h3>FLASHLEARN- Your AI Learning Hub</h3>
+                        <p>A responsive learning platform with modern frontend design, interactive features, and user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Tailwind CSS</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <video controls width="100%" height="200">
+                            <source src="TalkaTrim.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="project-content">
+                        <h3>TalkaTrim - English Summerizer and Urdu Translator</h3>
+                        <p>An AI-powered application using Hugging Face LLMs for English text summarization and Urdu translation with advanced language processing capabilities.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Hugging Face</span>
+                            <span>LLMs</span>
+                            <span>NLP</span>
+                            <span>Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>mahnoorhussain.official@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+92 331 0199002</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Pakistan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/mahnoorhussainn" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mahnoor-hussain-4534312b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mahnoorhussain._?igsh=MTh4djVjN20zMHNxYw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p>&copy; 2024 Mahnoor Hussain. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Mahnoor Hussain - Resume</h2>
+                <span class="close" onclick="closeResumeModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <iframe src="MahnoorHussainCV (1).pdf" width="100%" height="600px"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
